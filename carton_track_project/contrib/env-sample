@@ -1,0 +1,5 @@
+DEBUG=False
+SECRET_KEY=chave secreta
+ALLOWED_HOSTS= allowed host list
+DATABASE_URL=database url
+INTERNAL_IPS=toobar url
