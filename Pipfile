@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+pytest-django = "*"
+python-decouple = "*"
+dj = "*"
+dj-database-url = "*"
+psycopg2 = "*"
+django-debug-toolbar = "*"
+
+[dev-packages]
+flake8 = "*"
+black = "*"
+pytest-cov = "*"
+codecov = "*"
+pip = "*"
+ruff = "*"
+pyannotate = "*"
+
+[requires]
+python_version = "3.12"
